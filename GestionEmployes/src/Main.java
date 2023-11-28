@@ -38,6 +38,12 @@ public class Main {
         System.out.println("\n Apres Tri");
         System.out.println(depart.trierDepartementById());
 
+        //HashMap
+        System.out.println("\n Avec HashMap");
+        AffectationHashMap af=new AffectationHashMap();
+        af.ajouterEmployeDepartement(e,d);
+        af.ajouterEmployeDepartement(e2,d1);
+        af.afficherEmployeDepartement();
 
     }
 }
