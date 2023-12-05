@@ -23,7 +23,7 @@ public class Etudiant {
     }
 
     public int getAge() {
-        return age;
+        return age ;
     }
 
     public void setId(int id) {

@@ -15,4 +15,5 @@ public interface Management {
     Etudiant createEtudiant(Supplier<Etudiant> sup);
     List<Etudiant> sortEtudiantsById(List<Etudiant> Etudiants,Comparator<Etudiant> com);
     Stream<Etudiant> convertToStream(List<Etudiant> students);
+
 }

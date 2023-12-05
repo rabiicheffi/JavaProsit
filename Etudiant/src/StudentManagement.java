@@ -24,7 +24,7 @@ public class StudentManagement implements Management {
         String names="";
         for (Etudiant e:Etudiants) {
             names+=fun.apply(e);}
-        return names;
+        return names ;
     }
 
     @Override
